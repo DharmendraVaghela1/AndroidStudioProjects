@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="wgt">Enter your weight in kg</string>
+    <string name="HeightFT">Enter your height in FT</string>
+    <string name="HeightInch">Enter your height in INCH</string>
+    <string name="submitBtn">SUMMIT</string>
+    <string name="resultTxt">RESULT</string>
+    <string name="underweight">you are overweight</string>
+    <string name="healthy">you are healthy</string>
+    <string name="overweight">you are underweight</string>
+</resources>

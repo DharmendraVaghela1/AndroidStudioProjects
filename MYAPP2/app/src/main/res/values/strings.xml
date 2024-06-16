@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MY APP 2</string>
+    <string name="about">hello its my 2nd project in android dev and here i am using textview to show and also I used string.xml to this whole text and able access this text using id of this text in activity_main.xml THANK YOU to visit.</string>
+    <string name="enter_your_feedback"> Enter your feedback</string>
+</resources>

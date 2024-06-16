@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/wgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/wgt"
+        android:inputType="number"
+         />
+
+    <EditText
+        android:id="@+id/heightFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/HeightFT"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/heightInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/HeightInch"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/SummitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/submitBtn" />
+
+    <TextView
+        android:id="@+id/ResultTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultTxt"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
